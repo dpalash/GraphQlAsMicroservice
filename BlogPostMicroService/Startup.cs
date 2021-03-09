@@ -1,8 +1,8 @@
-using AuthorMicroService.Interfaces.Repositories;
-using AuthorMicroService.Interfaces.Services;
-using AuthorMicroService.Models;
-using AuthorMicroService.Repositories;
-using AuthorMicroService.Services;
+using BlogPostMicroService.Interfaces.Repositories;
+using BlogPostMicroService.Interfaces.Services;
+using BlogPostMicroService.Models;
+using BlogPostMicroService.Repositories;
+using BlogPostMicroService.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

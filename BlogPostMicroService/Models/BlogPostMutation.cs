@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using AuthorMicroService.Interfaces.Services;
+using BlogPostMicroService.Interfaces.Services;
 using BlogPostMicroService.DTOs;
 using HotChocolate;
 using HotChocolate.Subscriptions;
@@ -7,7 +7,7 @@ using HotChocolate.Types;
 
 // ReSharper disable ClassNeverInstantiated.Global
 
-namespace AuthorMicroService.Models
+namespace BlogPostMicroService.Models
 {
     [ExtendObjectType(Name = "Mutation")]
     public class BlogPostMutation

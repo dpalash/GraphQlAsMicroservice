@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using AuthorMicroService.Interfaces.Repositories;
+using BlogPostMicroService.Interfaces.Repositories;
 using BlogPostMicroService.DTOs;
 
-namespace AuthorMicroService.Repositories
+namespace BlogPostMicroService.Repositories
 {
     public class BlogPostRepository : IBlogPostRepository
     {

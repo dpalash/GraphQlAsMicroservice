@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using BlogPostMicroService.DTOs;
 
-namespace AuthorMicroService.Interfaces.Repositories
+namespace BlogPostMicroService.Interfaces.Repositories
 {
     public interface IBlogPostRepository
     {

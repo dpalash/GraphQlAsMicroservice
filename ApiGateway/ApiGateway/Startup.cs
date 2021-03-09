@@ -10,6 +10,7 @@ namespace ApiGateway
     public class Startup
     {
         private readonly string AllowedOrigin = "allowedOrigin";
+
         public const string Authors = "authors";
         public const string BlogPosts = "blogPosts";
 
@@ -50,15 +51,10 @@ namespace ApiGateway
             }
 
             app.UseHttpsRedirection();
-
             app.UseCors(AllowedOrigin);
-
             app.UseWebSockets();
-
             app.UseRouting();
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGraphQL();

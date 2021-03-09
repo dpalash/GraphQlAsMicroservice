@@ -9,7 +9,7 @@ using HotChocolate.Types;
 
 // ReSharper disable UnusedMember.Global
 
-namespace AuthorMicroService.Models
+namespace BlogPostMicroService.Models
 {
     // ReSharper disable once ClassNeverInstantiated.Global
     [ExtendObjectType(Name = "Subscription")]
