@@ -1,0 +1,8 @@
+﻿extend type Query {
+  getAuthorHavingIdOne: Author! @delegate(schema: "authors", path: "authorById(id: 1)")
+}
+
+extend type BlogPost {
+   getPostsByAuthorId: [BlogPost] @delegate(schema: "blogPosts", path: "getPostsByAuthorId(authorId: $fields:authorId)")
+}
+
